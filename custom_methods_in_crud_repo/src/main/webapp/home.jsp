@@ -12,13 +12,13 @@
 
 <body>
 
-    <!-- <br><b>ADD AN ALIEN TO THE MOB</b><br>
+    <br><b>ADD AN ALIEN TO THE MOB</b><br>
     <form action="addAlien" , method="post">
         <input type="text" name="aid" id=""><br>
         <input type="text" name="aname" id=""><br>
         <input type="text" name="tech" id=""><br>
         <input type="submit"><br>
-    </form> -->
+    </form>
 
     <br><b>FETCH AN ALIEN FROM THE MOB</b><br>
     <form action="getAlien" , method="post">
