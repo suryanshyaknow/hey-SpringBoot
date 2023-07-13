@@ -9,6 +9,3 @@
     <h1>Welcome to my home page, ${alienObj.aName} having enrollment number ${alienObj.aId}!</h1>
 </body>
 </html>
-
-
-<!-- localhost:8080/home -->
