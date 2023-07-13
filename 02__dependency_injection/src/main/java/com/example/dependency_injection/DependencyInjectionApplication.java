@@ -10,6 +10,20 @@ public class DependencyInjectionApplication {
 	public static void main(String[] args) {
 
 		// Initializing a Spring container
+		/**
+		 * Initializing the Spring container explicitly is not mandatory in all cases.
+		 * When using the Spring framework in a web application, for example, the
+		 * container is typically initialized automatically by the servlet container
+		 * when the application starts up. In such cases, the container is bootstrapped
+		 * based on the configuration provided in the web.xml file or through
+		 * annotations.
+		 * 
+		 * Explicit Initialization allows us to:
+		 * 
+		 * 1. Customize the container
+		 * 2. Access the container
+		 * 3. Control the application flow
+		 */
 		ConfigurableApplicationContext context = SpringApplication.run(DependencyInjectionApplication.class, args);
 
 		// Dependency Injection
